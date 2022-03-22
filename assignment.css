@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background-image: url(https://www.wishesmsg.com/wp-content/uploads/back-to-school-message-1280x720.jpg);
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 200;
+    background-size: 70rem 50rem;
+    background-repeat: no-repeat;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #55d6aa;
+  /* background: white; */
+  height: 8rem;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 20px 20px 20px 20px;
+  height: 6rem;
+  width: 10rem;
+}
+
+nav {
+    float: right;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-flex;
+    margin-left: 70px;
+    padding-top: 23px;  
+    position: relative;
+  }
+  
+  nav a {
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 2rem;
+  }
+  
+  nav a:hover {
+    color: #000;
+  }
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 250ms;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+  }
+  
+  .home{
+    font-size: larger;
+  }
+
+  .profile{
+      font-size: larger;
+  }
